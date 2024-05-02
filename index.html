@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dancing+Script">
+    <style>
+        body{
+            background-image: url(https://img.freepik.com/free-vector/dark-black-background-design-with-stripes_1017-38064.jpg?w=2000&t=st=1714656810~exp=1714657410~hmac=9c6281f4723a6423a0b3a82caefe2bcb097b48f811c0161a096253c7494e06a0);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        #profile{
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+        .col-md-4{
+            background-color: white;
+            width: 700px;
+            height: 475px;
+        }
+    </style>
+    <title>Q4 Quiz 1</title>
+    <body>
+        <center><br><br>
+            <div id="login-container">
+                <div class="col-md-4"><br><br>
+                    <form action="mainpage.html" class="form-group">
+                            <label id="email"></label><br>
+                            <input type="text" class="form-control bg-light" name="email" id="email">
+                            <br>
+                            <label id="password"></label><br>
+                            <input type="text" class="form-control bg-light" name="password" id="password">
+                            <br>
+                            <a href="mainpage.html"><button class="btn btn-success">Login</button></a>
+                            <a href="#"><button type="reset" class="btn btn-light">Cancel</button></a>
+                        </form>
+                    </div>
+                </div>
+        </center>
+        <script type="text/javascript">
+            document.getElementById("email").innerHTML = "Email:"; //label for email input box
+            document.getElementById("password").innerHTML = "Password:"; //label for password input box
+        </script>
+    </body>
+</html>
